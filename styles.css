@@ -1,0 +1,89 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Header Section */
+.header {
+  background: linear-gradient(90deg, #007bff, #0056b3);
+  color: white;
+  padding: 60px 20px;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+/* Section */
+.section {
+  padding: 40px 20px;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.bg-light {
+  background-color: #f9f9f9;
+}
+
+/* News Grid */
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.news-item {
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.news-item h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.news-item p {
+  margin: 0 0 15px;
+}
+
+.news-item .btn {
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.news-item .btn:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+.footer {
+  background: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+} 
